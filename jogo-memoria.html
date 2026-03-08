@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jogo-memoria.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk:MORF@15&family=Kablammo&family=Mogra&family=Oi&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>JOGO DA MEMÓRIA</h1>
+    </header>
+
+    <main class="game-main">
+        <div class="controls">
+            <div class="moves">MOVIMENTOS: <span id="move-count">0</span></div>
+            <button id="restart-btn">REINICIAR</button>
+        </div>
+
+        <section class="memory-game">
+            <!-- Os cartões serão gerados pelo JavaScript -->
+        </section>
+
+        
+    </main>
+
+    <script src="jogo-memoria.js"></script>
+
+    <div id="victory-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <h2>Você Venceu!</h2>
+            <p>Você completou o jogo em <span id="final-moves">0</span> movimentos.</p>
+            <button id="play-again-btn">Jogar Novamente</button>
+        </div>
+    </div>
+</body>
+</html>
