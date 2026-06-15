@@ -100,7 +100,8 @@
 }
 
 .back-face {
-    background-image: url('https://artecat.com.br/wp-content/uploads/2023/12/Jogo-da-Memoria-1.webp');
+    background-image: url('1404247.png');
+    background-color: lab(80.59% -67.98 75.03);
     background-size: cover;
     background-position: center;
     border: 3px solid #fff;
