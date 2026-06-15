@@ -3,14 +3,14 @@ const moveCountElem = document.getElementById('move-count');
 const restartBtn = document.getElementById('restart-btn');
 
 const cardValues = [
-    { name: 'DOG', emoji: '🐶' },
-    { name: 'CAT', emoji: '🐱' },
-    { name: 'MOUSE', emoji: '🐭' },
-    { name: 'HAMSTER', emoji: '🐹' },
-    { name: 'RABBIT', emoji: '🐰' },
-    { name: 'FOX', emoji: '🦊' },
-    { name: 'BEAR', emoji: '🐻' },
-    { name: 'PANDA', emoji: '🐼' }
+    { name: 'CELULAR', emoji: '📲' },
+    { name: 'E-MAIL', emoji: '📧' },
+    { name: 'INTERNET', emoji: '📶' },
+    { name: 'I.A', emoji: '🤖' },
+    { name: 'LAPTOP', emoji: '💻' },
+    { name: 'COMPUTADOR', emoji: '🖥️' },
+    { name: 'WINDOWS', emoji: '🪟' },
+    { name: 'LINUX', emoji: '🐧' }
 ];
 
 // Duplica os valores para formar pares e os embaralha
